@@ -14,6 +14,9 @@ Source2:        https://www.eclipse.org/legal/epl/epl-v10.html
 Source3:        https://www.apache.org/licenses/LICENSE-2.0.txt
 BuildArch:      noarch
 BuildRequires:	python
+# Literal, so the first rpmbuild -bs records them before sysjar is installed.
+BuildRequires:	maven
+BuildRequires:	java-current-devel
 BuildSystem:	maven
 
 Requires:       javapackages-filesystem
