@@ -3,8 +3,7 @@ Name:           jetty-test-policy
 Version:        1.2
 Release:        10
 Summary:        Jetty test policy files
-
-
+Group:          Development/Java
 License:        ASL 2.0 or EPL
 URL:            https://www.eclipse.org/jetty/
 Source0:        https://github.com/jetty/jetty.toolchain/archive/refs/tags/%{name}-%{version}.tar.gz
